@@ -1,10 +1,10 @@
 import { useState } from "react"
 import { Button } from "../common/Button"
 // import { Input } from "../common/Input"
-import { useAuth } from "../../context/AuthContext"
+// import { useAuth } from "../../context/AuthContext"
 
 export function SettingsPage({ user }) {
-  const {} = useAuth()
+  // const {} = useAuth()
   const [tab, setTab] = useState("profile")
   const [isLoading, setIsLoading] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
