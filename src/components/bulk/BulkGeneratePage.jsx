@@ -6,7 +6,7 @@ import { GenerateStep } from "./GenerateStep"
 
 export function BulkGeneratePage() {
   const [step, setStep] = useState(1)
-  // const [uploaded, setUploaded] = useState(false)
+  const [, setUploaded] = useState(false)
 
   return (
     <div>
