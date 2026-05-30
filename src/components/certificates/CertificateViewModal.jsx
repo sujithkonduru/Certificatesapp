@@ -274,7 +274,7 @@ function SigBlock({ name, title }) {
 }
 
 // ─── Style tokens ───────────────────────────────────────────────
-const gold       = "rgba(184,146,74,1)"
+// const gold       = "rgba(184,146,74,1)"
 const goldFaint  = "rgba(184,146,74,0.45)"
 const goldGhost  = "rgba(184,146,74,0.18)"
 const darkBg     = "#0f0e0c"

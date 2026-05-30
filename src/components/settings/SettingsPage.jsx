@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Button } from "../common/Button"
-import { Input } from "../common/Input"
+// import { Input } from "../common/Input"
 import { useAuth } from "../../context/AuthContext"
 
 export function SettingsPage({ user }) {
-  const { logout } = useAuth()
+  const {} = useAuth()
   const [tab, setTab] = useState("profile")
   const [isLoading, setIsLoading] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
@@ -60,7 +60,7 @@ export function SettingsPage({ user }) {
   ])
 
   // Connected apps
-  const [connectedApps, setConnectedApps] = useState([
+  const [connectedApps] = useState([
     { id: 1, name: "Slack", icon: "💬", connected: true, email: "workspace@certflow.com" },
     { id: 2, name: "Google Drive", icon: "📁", connected: true, email: "backup@certflow.com" },
     { id: 3, name: "Zapier", icon: "⚡", connected: false },

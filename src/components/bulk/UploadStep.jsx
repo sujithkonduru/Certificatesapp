@@ -1,4 +1,4 @@
-import { Button } from "../common/Button"
+// import { Button } from "../common/Button"
 
 export function UploadStep({ onUpload, setUploaded }) {
   const handleUpload = () => {
